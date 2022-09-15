@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  color: #fff;
+  font-size: 1.6rem;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 112rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.section-heading {
+  font-size: 4rem;
+}
+#Thnx {
+height: 40vh;
+  background: #251c5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section_counter {
+  padding: 5rem 0;
+  background: #2f2371;
+}
+#section_counter .section-heading {
+  padding-bottom: 5rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.img {
+  width: 7rem;
+  height: 7rem;
+  filter: drop-shadow(0 0 0.2rem #251c5a);
+}
+.item {
+  background: #5d46e2;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+}
+.counter-item:hover {
+  background: #251c5a;
+  transition: all 0.5s ease-in-out;
+}
+.counter-item .counter {
+  font-size: 4.5rem;
+}
